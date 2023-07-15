@@ -1,0 +1,160 @@
+@media only screen and (max-width: 800px) {
+    header nav li{
+        display: none;
+    }
+    header .nav-x li:nth-child(1){
+        display: block;
+    }
+    header nav .btn-menu{
+        display: block;
+        position: absolute;
+        right: 2rem;
+    }
+    header , article{
+        width: 100%;
+    }
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    article .alan-anaekran .baslik{
+        font-size: 270%;
+    }
+    article .alan-anaekran .altyazi {
+        font-size: 1.2rem;
+        margin: 0 3vh;
+    }
+    /* */
+
+    .store-button a{
+        width: 90%;
+    }
+    .box-alan .box{
+        margin: 10px 0;
+        width: 70%;
+    }
+    .alan-basit{
+        width: 90%;
+    }
+
+    
+.alan-kapsam{
+    flex-wrap: wrap;
+}
+
+.alan-kapsam div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.alan-kapsam .alan-1{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-bottom: 5vh;
+}
+.alan-kapsam .alan-1 .block-1{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.alan-kapsam .alan-1 .block-1 .h1 h1{
+    font-size: 2.1rem;
+}
+
+
+.alan-kapsam .alan-1 .block-2{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5vh;
+}
+.alan-kapsam .alan-1 .block-2 img{
+    width: 90%;
+}
+
+/* kapsma */
+.button-learn{
+    width: 100%;
+}
+.button-learn a{
+    margin-right: 0;
+    background-color: #183B56;
+    color: #fff;
+    padding: .6rem;
+    width: 55%;;
+    transition: all 200ms;
+}
+
+
+.alan-kapsam .alan-2{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    flex-wrap: wrap-reverse;
+    margin: 0 auto;
+}
+.alan-kapsam .alan-2 .block-1{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.alan-kapsam .alan-2 .block-2{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 3vh;
+}
+
+
+
+.ardisik-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10vh;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+}
+.ardisik-box .box-w{
+    padding: 3vh;
+    margin: 0 1em;
+    margin-top: 2vh;
+}
+.alan-box .boxsx{
+    width: 100%;
+}
+
+.share-alan .bom-1{
+    width: 100%;
+}
+.share-alan .bom-2{
+    width: 100%;
+}
+
+.store-buttonn .kpsa{
+    margin-top: 5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.store-buttonn .kpsa .alan{
+    padding: 0px 15px;
+    margin: 10px;
+    width: 70%;
+}
+.social div{
+    width: 100%;
+    margin: 20px 0;
+}
+}
+
+
+#myDiv{
+    display:none;
+}

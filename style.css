@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+    color: #183B56;
+    margin: 0 auto;
+}
+
+* {
+    list-style: none;
+        text-decoration: none;
+        border: 1px solid red;
+}
+
+header {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2vh;
+}
+
+header nav {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0 5vh;
+}
+
+header .nav-1 {
+    display: flex;
+    margin-right: auto;
+}
+header .nav-1 li{
+    list-style: none;
+}
+header nav .btn-menu{
+    display: none;
+}
+header .nav-1 li a {
+    color: #183B56;
+    display: block;
+    padding: 1pc;
+    margin: 0 .1pc;
+    text-decoration: none;
+}
+header .nav-x{
+    margin-right: auto;
+}
+header .nav-x img{
+    width: 2.5rem;
+}
+header .nav-1 img {
+    width: 2.5rem;
+}
+
+header .nav-2 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 1%;
+    width: 55%;
+}
+
+header .nav-2 li a {
+    padding: .5pc;
+    margin: 0 .3pc;
+    border-radius: 10px;
+    font-size: .9rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+header .nav-2 li:nth-child(1) a {
+    color: #183B56;
+    border: 1px solid #183B56;
+    transition: all 200ms;
+}
+
+header .nav-2 li:nth-child(1) a:hover {
+    color: #fff;
+    background-color: #183B56;
+    border: 1px solid transparent;
+}
+
+header .nav-2 li:nth-child(2) a {
+    background-color: #fb4040;
+    border-color: #fb3434;
+    color: #fff;
+    opacity: .7;
+    transform: translateY(0rem);
+    transition: all 200ms;
+}
+
+header .nav-2 li:nth-child(2) a:hover {
+    opacity: 1;
+    transform: translateY(-.1rem);
+}
+header .nav-2 li a i{
+    margin-left: 7px;
+}
+/* header end */
+article {
+    width: 75%;
+    margin: 0 auto;
+}
+
+article alan-anaekran {
+    height: 70vh;
+    background-color: #183B56;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30%;
+}
+
+article .alan-anaekran .baslik {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bolder;
+    color: #183B56;
+    line-height: 1.3;
+    padding-top: 10vh;
+    padding-bottom: 3vh;
+}
+
+article .alan-anaekran .altyazi {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 100;
+}
+.store-button a{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none; 
+}
+.store-button a .alan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #183B56;
+    margin: 0 .5rem;
+    border-radius: 7px;
+    padding: 5px 10px;
+}
+
+.store-button a .alan i{
+    font-size: 2rem;
+    margin-right:15px;
+}
+.store-button a .alan p{
+    font-size: 1rem;
+}
+.ana-resim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh 0;
+}
+.ana-resim img{
+    max-width: 90%;
+}
+.box-alan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box-alan .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 33%;
+}
+.box-alan .box i{
+    font-size: 3rem;
+    color: #418B78;
+}
+.box-alan .box h2{
+    margin: 3vh 0;
+    font-weight: 500;
+}
+.box-alan .box p{
+    font-size: 1rem;
+    padding: 20px 24px;
+    font-weight: 100;
+}
+.alan-basit{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+.alan-basit .h1{
+    font-weight: 900;
+}
+.alan-basit h4{
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+/* bu alan*/ 
+
+.alan-kapsam{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 15vh;
+}
+
+.alan-kapsam div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.alan-kapsam .alan-1{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-bottom: 5vh;
+}
+.alan-kapsam .alan-1 .block-1{
+    text-align: left;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    padding-right:2rem;
+    margin-right: auto;
+}
+
+.alan-kapsam .alan-1 .block-1 .h1{
+    width: 100%;
+}
+.alan-kapsam .alan-1 .block-1 .h1 h1{
+    font-size: 2.3rem;
+    font-weight: 600;
+    text-align: left;
+    width: 100%;
+}
+.alan-kapsam .alan-1 .block-2{
+    width: 50%;
+}
+.alan-kapsam .alan-1 .block-2 img{
+    width: 90%;
+}
+
+
+
+.alan-kapsam .alan-2{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+.alan-kapsam .alan-2 .block-1{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    padding-right:2rem;
+}
+.alan-kapsam .alan-2 .block-2{
+    width: 50%;
+    margin-right: auto;
+}
+
+/* kapsma */
+.button-learn{
+    width: 100%;
+}
+.button-learn a{
+    margin-right: auto;
+    background-color: #183B56;
+    color: #fff;
+    padding: .6rem;
+    width: 40%;
+    text-align: center;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 200ms;
+}
+.button-learn a:hover{
+    transform: translateY(-.2rem);
+    background-color: #0f293d;
+}
+.ardisik-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+.ardisik-box .box-w{
+    border: 1px solid #183b562a;
+    border-radius: 7px;
+    padding: 3vh;
+    margin: 0 1em;
+}
+.ardisik-box .box-w .sayi{
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+.we{
+    font-size: 19px;
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.mark{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: transparent;
+    margin-bottom: -3vh;
+}
+.mark a{
+    color: #183B56;
+    font-size: 5.5rem;
+    margin: 0 10px;
+}
+footer{
+    width: 70%;
+    margin: 0 auto;
+}
+.alan-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 5vh 0;
+}
+.alan-box .boxsx{
+    width: 27%;
+    border: 1px solid rgb(239, 239, 239);
+    background-color: rgba(255, 255, 255, 0.467);
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 7px;
+    
+}
+.alan-box .boxsx div {
+    margin: 6px 0;
+}
+.alan-box .boxsx .logo img{
+    width: 150px;
+}
+.alan-box .boxsx .text{
+    line-height: 1.6;
+    font-size: 17px;
+}
+.alan-box .boxsx .ready{
+    font-size: 19px;
+}
+.alan-box .boxsx .ready a{
+    color: #183B56;
+    text-decoration: none;
+}
+
+.click-alan{
+    display: flex;
+    background-color: #f4f4f4;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5vh 0;
+    width: 90%;
+    margin: 0 auto;
+}
+.click-alan .bos a{
+    display: flex;
+    align-items: center;
+    color: #0f293d;
+    text-decoration: none;
+    padding: 1.5rem 2.5rem;
+    border: 1px solid rgba(180, 180, 180, 0.267);
+}
+.click-alan .bos a h2{
+    margin-right: auto;
+    font-size: 19px;
+    font-weight: bold;
+}
+.kapsam{
+    background-color: #eff1f5 !important;
+}
+.share-alan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 15vh;
+    padding: 5vh;
+    flex-wrap: wrap-reverse;
+}
+.share-alan .bom-1{
+    padding: 2pc;
+    width: 50%;
+}
+.share-alan .bom-1 h3{
+    font-size: 1.7rem;
+    color: #0f293da1;
+}
+.share-alan .bom-1 h2{
+    font-size: 2.6rem;
+    font-weight: bolder;
+}
+.share-alan .bom-1 .to{
+    font-size: 1.3rem;
+    color: #0f293da1;
+}
+.share-alan .bom-2{
+    width: 50%;
+}
+.store-buttonn .kpsa{
+    width: 90%;
+    margin-top: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    color: #fff;
+    text-decoration: none; 
+}
+.store-buttonn .kpsa .alan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #183B56;
+    color: #fff;
+    margin: 0 .5rem;
+    border-radius: 7px;
+    padding: 5px 10px;
+    font-size: 2rem;
+    text-decoration: none;
+}
+.store-buttonn .kpsa .alan p{
+    font-size: 1rem;
+    margin-left: 15px;
+}
+.social{
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 7vh;
+}
+.social div{
+    width: 33%;
+}
+.social .media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.social .media h3{
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.social .media .s-media{
+    display: flex;
+    margin-top: 10px;
+    margin-right: auto;
+}
+.social .media .s-media li:nth-child(1) a i{    
+    color: #1da1f2;
+}
+.social .media .s-media li:nth-child(2) a i{
+    color: #3b5999;
+}
+.social .media .s-media li:nth-child(3) a i{
+    color: #222222;
+}
+.social .media .s-media li:nth-child(4) a i{
+    color: #ea4c89;
+}
+.social .media .s-media li a i{
+    font-size: 1.5rem;
+    margin: 0 7px;
+}
+.about{
+    display: flex;
+    padding-left: 10%;
+    justify-content: center;
+    flex-direction: column;
+    width: 33%;
+}
+.about li:nth-child(1){
+    font-weight: bolder;
+}
+.about li{
+    margin-bottom:5px;
+}
+.about li a{
+    color: #0f293d;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.mail{
+    width: 33%;
+}
+.mail h2{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.mail input{
+    margin: 1.7rem 0;
+    border-radius: 7px;
+    border: 2px solid #225987;
+    width: 100%;
+    padding: 9px;
+    outline: none;
+}
+.mail input::placeholder{
+    color: #0f4d7d;
+}
+.mail button{
+    background-color: #0f293d;
+    color: #fff;
+    padding: 9px;
+    display: block;
+    width: 100%;
+    border-radius: 7px;
+    font-size: 1.2rem;
+    border: 1px solid transparent;
+}
+.mail p{
+    color: #183b56c0;
+}
+
+
